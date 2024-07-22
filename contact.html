@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+   <title> Responsive Drop Down Navigation Menu | CodingLab </title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com.css2?family=Poppins:wght@400;600;800&display=swap">
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <div class="logo"><a href="#"><span>AC</span>Zone</a></div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name">ACZone</span>
+          <i class='bx bx-x' ></i>
+        </div>
+        <ul class="links">
+          <li><a href="index.html">HOME</a></li>
+          <li>
+            <a href="shop">SHOP</a>
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="#"> MY CART</a></li>
+              <li><a href="#">ORDERS</a></li>
+              <li><a href="#">WISHLIST</a></li>
+             <!--- <li class="more">
+                <span><a href="#">More</a>
+                <i class='bx bxs-chevron-right arrow more-arrow'></i>
+              </span>-->
+               <ul class="more-sub-menu sub-menu">
+                  <li><a href="#">Neumorphism</a></li>
+                  <li><a href="#">Pre-loader</a></li>
+                  <li><a href="#">Glassmorphism</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="profile">PROFILE</a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Connect CustomerCare</a></li>
+              <li><a href="#">LogOut</a></li>
+            </ul>
+          </li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a class="active" href="contact.html">CONTACT US</a></li>
+        </ul>
+      </div>
+      <div class="search-box">
+        <i class='bx bx-search'></i>
+        <div class="input-box">
+          <input type="text" placeholder="Search...">
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="contact-hd">
+    <div class="contact">
+    <h1>Connect With Us</h1>
+    <p><strong>We would love to respond to your queries and help you succeed. Feel free to get in touch with us.</strong></p><br>
+    <div class="contact-box">
+      <div class="contact-left">
+        <h3>Send your request</h3>
+        <form>
+          <div class="input-row">
+            <div class="input-group">
+              <label>Name:</label>
+              <input type="text" placeholder="John Amendo">
+            </div>
+
+            <div class="input-group">
+              <label>Phone:</label>
+              <input type="text" placeholder="+234-807-5143-220">
+            </div>
+
+          </div>
+
+          <div class="input-row">
+            <div class="input-group">
+              <label>Email:</label>
+              <input type="email" placeholder="godstimesml@gmail.com">
+            </div>
+
+            <div class="input-group">
+              <label>Subject:</label>
+              <input type="text" placeholder="Procuct Demo">
+            </div>
+
+          </div>
+
+          <label>Message</label>
+          <textarea rows="5" placeholder="Your Message"></textarea>
+          <button class="btnn" type="submit">SEND</button>
+        </form>
+
+      </div>
+      <div class="contact-right">
+        <h3>Reach Us</h3>
+
+
+        <table>
+          <tr><br><br>
+            <td>Email</td>
+            <td>contactus@example.com</td>
+          </tr>
+
+          <tr> <br><br>
+            <td>Phone</td>
+            <td>+234-807-5143-220</td>
+          </tr>
+
+          <tr> <br><br>
+            <td>Addres</td>
+            <td>contactus@example.com</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    </div>
+  </div>
+  <footer class="section-p1">
+    <div class="col">
+      <h1>AC<span>Zone</span></h1>
+      <class image=""></class>  
+      <h4>Contact</h4>
+      <p><strong>Address:</strong> 536 Festac Ave, Block 77, Lagos</p>
+      <p><strong>Phone:</strong> (+234)807-5143-220</p>
+      <p><strong>Hours:</strong> 08:00 - 19:00, Mon-Sat</p>
+      <div class="follow">
+        <h4>Follow Us</h4>
+        <div class="icon">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-pinterest-p"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <h4>About</h4>
+      <a href="#">About Us</a>
+      <a href="#">Delivery Information</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Condition</a>
+      <a href="#">Contact Us</a>
+    </div>
+    <div class="col">
+      <h4>My Account</h4>
+      <a href="#">Sign In</a>
+      <a href="#">View Cart</a>
+      <a href="#">My Wishlist</a>
+      <a href="#">Track My Order</a>
+      <a href="#">Help</a>
+    </div>
+    <div class="col install">
+      <h4>Install App</h4>
+      <p>From All App Store or Google Play</p>
+      <div class="row">
+        <img src="C:\Users\GODSTIME\OneDrive\Documents\rivo\Gallery 3 — aramedes_com.jpg" alt="">
+        <img src="C:\Users\GODSTIME\OneDrive\Documents\rivo\Mobile App.jpg" alt="">
+        </div>
+        <p>Secured Payment Getways</p>
+        <img src="C:\Users\GODSTIME\OneDrive\Documents\rivo\Colorful Credit Card Templates.jpg" alt="">
+      </div> 
+      <div class="copywrite">2024,SamTech Innovations - ACZone Ecommerce - Website</p>
+      </div>
+    </div>  
+   </footer>
+   </body>
+   </html>
